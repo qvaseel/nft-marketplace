@@ -1,0 +1,43 @@
+.magicMashroomsSection {
+    width: 100%;
+    height: 640px;
+    margin: 0 auto;
+    background: linear-gradient(180.00deg, rgba(162, 89, 255, 0),rgb(162, 89, 255) 100%);
+}
+
+.black {
+    width: 100%;
+    height: 640px;
+    background-color: #000;
+}
+
+.inside {
+    background-image: url('../../img/mashrooms.svg');
+    background-repeat: no-repeat;
+    width: 1280px;
+    margin: 0 auto;
+    height: 640px;
+}
+
+.mm_link {
+    text-decoration: none;
+    color: black;
+    width: 198px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 19px 45px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.mm_link_img {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}

@@ -1,0 +1,32 @@
+.input_footer {
+    display: flex;
+    width: 420px;
+    position: relative;
+}
+
+.input_footer input {
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    padding-left: 20px;
+    font-size: 16px;
+    height: 60px;
+    color: #2b2b2b;
+    font-family: "Work Sans", sans-serif;
+    border: none;
+}
+
+.input_footer button {
+    border-radius: 20px;
+    background-color: #A259FF;
+    font-size: 16px;
+    height: 60px;
+    width: 179px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    border: none;
+    position: absolute;
+    left: 242px;
+}

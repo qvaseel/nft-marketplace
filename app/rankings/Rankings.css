@@ -1,0 +1,28 @@
+.rankingsSection {
+    width: auto;
+}
+
+.btns {
+    width: 1050px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.btns button {
+    width: 262.5px;
+    height: 60px;
+    background-color: inherit;
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #858584;
+    border: none;
+    cursor: pointer;
+}
+
+.btns .active {
+    color: white;
+    border-bottom: 2px solid #858584;
+}

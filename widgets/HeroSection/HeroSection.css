@@ -1,0 +1,67 @@
+.heroSection {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #2B2B2B;
+    padding: 80px 115px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.leftside {
+    max-width: 500px;
+}
+
+.ls_link {
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    width: 224px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+    background-color: #A259FF;
+    padding: 19px 50px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+
+.ls_link::after {
+    transition: .2s ease-in-out;
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: 50%;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    background-color: #7640bb;
+    opacity: .5;
+    border-radius: 50%;
+    transform: translateY(50%) scale(0);
+    transform-origin: right;
+}
+.ls_link:hover::after {
+    transform: translateY(50%) scale(1);
+    transform-origin: right;
+}
+
+
+.ls_link_img {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.ls_stats {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

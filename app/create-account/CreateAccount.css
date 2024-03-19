@@ -1,0 +1,45 @@
+.accSection {
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.input {
+    width: 330px;
+    border-radius: 20px;
+    height: 46px;
+    border: 1px solid #858584;
+    margin-bottom: 15px;
+    padding-left: 22px;
+    font-family: "Work Sans", sans-serif;
+    color: #2B2B2B;
+    font-size: 16px;
+}
+
+.submit {
+    margin-top: 15px;
+    width: 330px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    background-color: #A259FF;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.error {
+    width: 330px;
+    border-radius: 20px;
+    height: 46px;
+    border: 1px solid red;
+    margin-bottom: 15px;
+    padding-left: 22px;
+    font-family: "Work Sans", sans-serif;
+    color: #2B2B2B;
+    font-size: 16px;
+}

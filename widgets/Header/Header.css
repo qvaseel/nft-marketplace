@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.cont_header {
+    width: 100%;
+    background-color: #2B2B2B;
+}
+
+.header {
+    margin: 0 auto;
+    width: 1280px;
+    height: 100px;
+    background-color: #2B2B2B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.logo {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    width: 202px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo_img {
+    width: 32px;
+}
+
+nav {
+    width: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+}
+
+.text_nav {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 19px 20px;
+}
+.text_nav::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    transition: .2s ease-in-out;
+}
+.text_nav:hover::after {
+    transform: translateX(-50%) scale(1);
+}
+
+.btn_nav {
+    width: 152px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+    background-color: #A259FF;
+    margin: 0;
+    padding: 19px 30px;
+    border-radius: 20px;
+}
+
+.navbar_toggler {
+    width: 40px;
+    height: 30px;
+    background-color: inherit;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
+
+.bars {
+    width: 40px;
+    height: 30px;
+}
+
+
+
+@media (max-width: 1280px) {
+    .header {
+        width: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+    .navbar_toggler {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        
+    }
+    
+    nav {
+        flex-direction: column;
+        width: 160px;
+        margin-top: 100px;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .show {
+        display: block;
+    }
+    
+}

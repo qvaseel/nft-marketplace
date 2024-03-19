@@ -1,0 +1,33 @@
+.topCreatorsSection {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #2B2B2B;
+    padding: 80px 115px;
+    color: white;
+}
+
+.tc_link {
+    text-decoration: none;
+    color: white;
+    width: 247px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+    background-color: inherit;
+    padding: 19px 45px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #A259FF;
+    margin-top: 31px;
+}
+
+.tc_link_img {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    fill: #A259FF;
+}

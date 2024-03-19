@@ -1,0 +1,10 @@
+.timer {
+    margin-top: 73px;
+    color: white;
+    width: 295px;
+    height: 147px;
+    backdrop-filter: blur(10px);
+    background: rgba(59, 59, 59, 0.5);      
+    padding: 30px;
+    border-radius: 20px;
+}
